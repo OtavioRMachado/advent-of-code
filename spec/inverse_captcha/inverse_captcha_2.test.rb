@@ -1,4 +1,4 @@
-require_relative '../inverse_captcha_2'
+require_relative "../../src/inverse_captcha/inverse_captcha_2"
 
 describe 'Inverse Captcha 2', type: :helper do
   it 'returns 0 if odd size or empty' do

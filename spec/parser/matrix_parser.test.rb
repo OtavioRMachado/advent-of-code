@@ -1,4 +1,4 @@
-require_relative '../matrix_parser'
+require_relative '../../src/parser/matrix_parser'
 describe 'Matrix Parser', type: :helper do
   it 'parses empty file into an empty list' do
     input = ''
@@ -27,6 +27,6 @@ describe 'Matrix Parser', type: :helper do
   it 'parses two rows with more than one element' do
     input = "1 2\n3"
     result = MatrixParser.new(input).parse_matrix
-    expect(result).to eq([[1,2], [3]])    
+    expect(result).to eq([[1,2], [3]])
   end
 end

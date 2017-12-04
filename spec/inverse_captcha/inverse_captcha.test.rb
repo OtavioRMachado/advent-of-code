@@ -1,4 +1,4 @@
-require_relative "../inverse_captcha"
+require_relative "../../src/inverse_captcha/inverse_captcha"
 
 describe 'Inverse Captcha', type: :helper do
   it 'returns zero when input length <= 1' do

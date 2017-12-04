@@ -1,4 +1,4 @@
-require_relative '../corruption_checksum'
+require_relative "../../src/corruption_checksum/corruption_checksum"
 
 describe 'Corruption Checksum', type: :helper do
   it 'Returns 0 when the matrix is empty' do
